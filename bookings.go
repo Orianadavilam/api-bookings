@@ -5,10 +5,10 @@ import (
 	"net/http"
 )
 
-func getBookings(w http.ResponseWriter, r *http.Request) {
+func GetBookings(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("getBookings")
 }
 
-func createBooking(w http.ResponseWriter, r *http.Request) {
+func CreateBooking(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("createBooking")
 }
